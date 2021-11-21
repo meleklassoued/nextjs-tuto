@@ -1,9 +1,10 @@
 import React from "react";
+import Link from "next/link";
 
 function Post() {
   return (
     <div>
-      <h1> aslema </h1>
+      <Link href='/'>aslema edheya el post page </Link>
     </div>
   );
 }
