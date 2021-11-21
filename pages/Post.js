@@ -6,8 +6,8 @@ import alert from "../components/alert.module.css";
 import cn from "classnames";
 
 function Post() {
-  const [state, setState] = useState(Boolean);
-  const bhim = "aslema";
+  const [state, setState] = useState(true);
+ 
   return (
     <div>
       <Link href='/'>aslema edheya el post page </Link>
