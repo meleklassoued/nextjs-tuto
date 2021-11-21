@@ -6,8 +6,27 @@ import Link from "next/dist/client/link";
 
 export default function Home() {
   return (
-    <div>
-      <Link href='/Post'> aslema edheya the official page </Link>
-    </div>
+    <>
+      <Head>
+        <title>page1</title>
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+      </Head>
+      <div>melek lassoued</div>
+      <style jsx>{`
+        div {
+          color: #5e5ccf;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: 100vh;
+          border: 10px solid #00000075;
+          background: #9b9ba9;
+          border-radius: 10%;
+          font-size: 40px;
+        }
+      `}</style>
+    </>
   );
 }

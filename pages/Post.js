@@ -7,7 +7,7 @@ function Post() {
   return (
     <div>
       <Link href='/'>aslema edheya el post page </Link>
-      <Image src={img} height={100} widht={144} alt='vercel' />
+      <Image src={img} height={100} width={144} alt='vercel' />
     </div>
   );
 }
