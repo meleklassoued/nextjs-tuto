@@ -1,14 +1,17 @@
+import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Home.module.css";
 import Post from "./Post";
 import Link from "next/dist/client/link";
-// import styles from "../components/layout.module.css";
+import cn from "classnames";
+
 
 //add the Layout
 import Layout from "../components/Layout";
 
 export default function Home() {
+ 
   return (
     <>
       <Layout>
@@ -32,6 +35,7 @@ export default function Home() {
             font-size: 40px;
           }
         `}</style>
+      
       </Layout>
     </>
   );
