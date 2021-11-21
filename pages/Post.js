@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import img from "../public/vercel.svg";
@@ -10,11 +10,6 @@ function Post() {
   const bhim = "aslema";
   return (
     <div>
-      <style jsx>{`
-        h1 {
-          color: blue;
-        }
-      `}</style>
       <Link href='/'>aslema edheya el post page </Link>
       <Image src={img} height={100} width={144} alt='vercel' />
       <button onClick={() => setState(!state)}>click here</button>
