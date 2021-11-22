@@ -8,14 +8,15 @@ import Image from "next/image";
 
 export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-  console.log(res.json);
   const data = await res.json();
+  console.log(data)
   return {
     props: {
       data,
     },
   };
-}
+}    
+
 
 //add the Layout
 import Layout from "../components/Layout";
